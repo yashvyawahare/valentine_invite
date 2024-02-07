@@ -1,0 +1,59 @@
+body {
+    background-color:#F6FEFC;
+}
+.card {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  margin-top:150px;
+}
+img {
+  height:268px;
+  width:370px;
+  border-radius:50px;
+}
+.yes {
+  background-color:lightgreen;
+  width:55px;
+}
+.no {
+  background-color:red;
+}
+.no:hover {
+
+}
+h3 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.5rem;
+  color:violet;
+  margin-bottom:15px;
+  margin-top:10px;
+}
+.button {
+  font-family: 'Comic Neue', cursive;
+}
+button {
+  color:white;
+  border: 0px;
+  height:30px;
+  border-radius:10px;
+  font-weight:700;
+  font-size:1.2rem;
+}
+span:hover::after {
+  content:"Dont!";
+}
+span::before {
+  content:"No";
+}
+span:hover::before {
+  display:none;
+}
+button:hover {
+  box-shadow: 2px 2px 11px 0px rgba(255,192,203,0.75);
+}
+p {
+  font-size:2rem;
+  font-weight:700;
+  color: pink;
+}
